@@ -821,128 +821,10 @@
 
     <div class="container my-5">
 
-        <div id="scholarshipCarousel" class="carousel slide py-4" data-bs-ride="carousel" style="background-color: #f0f9ff; border-radius: 30px; padding: 30px; max-width: 1400px; margin: auto;">
-        <div class="carousel-indicators" style="bottom: -40px;">
-            <button type="button" data-bs-target="#scholarshipCarousel" data-bs-slide-to="0" class="active"></button>
-            <button type="button" data-bs-target="#scholarshipCarousel" data-bs-slide-to="1"></button>
-            <button type="button" data-bs-target="#scholarshipCarousel" data-bs-slide-to="2"></button>
-        </div>
-        
-        <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <div class="row align-items-center">
-                        <div class="col-md-4">
-                            <img src="images/Carousal-Images/carousal3-1.jpg" class="img-fluid" style="border-radius: 15px;" alt="Students">
-                        </div>
-                        <div class="col-md-8">
-                            <h2 style="color: #1a365d; font-size: 24px; margin-bottom: 20px;">Dr APJ Abdul Kalam Global Skills Scholarship in Bangalore</h2>
-                            <p style="color: #4a5568; margin-bottom: 30px;">The Global Schools Foundation (GSF) has been contributing to the educational needs of students through various programmes and initiatives. Through the Merit-Cum-Means scholarship, GSF plans to extend support through financial assistance, and make education affordable for parents across a broad financial range. The scholarship is aimed for students who are residents of Malaysia, including existing parents and student fraternity of GIIS, across all grades</p>
-                            
-                            <div class="row mb-4">
-                                <div class="col-md-4">
-                                    <p style="color: #718096; margin-bottom: 5px;">Scholarship Tenure:</p>
-                                    <p style="color: #2d3748; font-weight: 500;">1 Year</p>
-                                </div>
-                                <div class="col-md-4">
-                                    <p style="color: #718096; margin-bottom: 5px;">Scholarship Value:</p>
-                                    <p style="color: #2d3748; font-weight: 500;">Upto 19% off on Tuition Fees</p>
-                                </div>
-                                <div class="col-md-4">
-                                    <p style="color: #718096; margin-bottom: 5px;">Applicable Grades:</p>
-                                    <p style="color: #2d3748; font-weight: 500;">Grade Whitefield Campus - Grade 6 - 12<br>Bannerghatta Campus - Grade 6 - 9</p>
-                                </div>
-                            </div>
+        <x-scholarships>
+            
+        </x-scholarships>
 
-                            <a href="#" class="d-block mt-4 mb-4 fw-bold" style="color: #0099ff; text-decoration: none;">
-                                <small>REQUEST FOR SCHOLARSHIP BROCHURE</small>
-                                <span style="margin-left: 5px;">→</span>
-                            </a>
-                            
-                            <div class="d-flex gap-3">
-                                <a href="#" class="btn px-4 py-2" style="background-color: #00A3FF; color: white; border-radius: 25px; box-shadow: 0 4px 15px rgba(0, 163, 255, 0.3); font-weight: 500; border: none; text-transform: uppercase; font-size: 14px; transition: transform 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'">APPLY NOW</a>
-                                <a href="#" class="btn px-4 py-2" style="color: #00A3FF; border: 2px solid #00A3FF; background-color: transparent; border-radius: 25px; box-shadow: 0 4px 15px rgba(0, 163, 255, 0.3); font-weight: 500; text-transform: uppercase; font-size: 14px; transition: transform 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'">KNOW MORE</a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="carousel-item">
-                <div class="row align-items-center">
-                        <div class="col-md-4">
-                            <img src="images/Carousal-Images/carousal3-2.jpg" class="img-fluid" style="border-radius: 15px;" alt="Students">
-                        </div>
-                        <div class="col-md-8">
-                            <h2 style="color: #1a365d; font-size: 24px; margin-bottom: 20px;">Mahatma Gandhi Universal Values Merit-cum-Means Scholarship in Bangalore</h2>
-                            <p style="color: #4a5568; margin-bottom: 30px;">In this digital world, students are known to be technology-savvy very early in their life. Their natural inclination towards the understanding of gadgets, applications and other digital tools makes them proficient in the subject at a very young age. This scholarship recognizes such young talents in the field of digital space and encourages them to succeed.</p>
-                            
-                            <div class="row mb-4">
-                                <div class="col-md-4">
-                                    <p style="color: #718096; margin-bottom: 5px;">Scholarship Tenure:</p>
-                                    <p style="color: #2d3748; font-weight: 500;">1 Year</p>
-                                </div>
-                                <div class="col-md-4">
-                                    <p style="color: #718096; margin-bottom: 5px;">Scholarship Value:</p>
-                                    <p style="color: #2d3748; font-weight: 500;">Upto 25% off on Tuition Fees</p>
-                                </div>
-                                <div class="col-md-4">
-                                    <p style="color: #718096; margin-bottom: 5px;">Applicable Grades:</p>
-                                    <p style="color: #2d3748; font-weight: 500;">Grade Whitefield Campus - Grade 1 - 12<br>Bannerghatta Campus - Grade 1 - 9</p>
-                                </div>
-                            </div>
-
-                            <a href="#" class="d-block mt-4 mb-4 fw-bold" style="color: #0099ff; text-decoration: none;">
-                                <small>REQUEST FOR SCHOLARSHIP BROCHURE</small>
-                                <span style="margin-left: 5px;">→</span>
-                            </a>
-                            
-                            <div class="d-flex gap-3">
-                                <a href="#" class="btn px-4 py-2" style="background-color: #00A3FF; color: white; border-radius: 25px; box-shadow: 0 4px 15px rgba(0, 163, 255, 0.3); font-weight: 500; border: none; text-transform: uppercase; font-size: 14px; transition: transform 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'">APPLY NOW</a>
-                                <a href="#" class="btn px-4 py-2" style="color: #00A3FF; border: 2px solid #00A3FF; background-color: transparent; border-radius: 25px; box-shadow: 0 4px 15px rgba(0, 163, 255, 0.3); font-weight: 500; text-transform: uppercase; font-size: 14px; transition: transform 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.04)'" onmouseout="this.style.transform='scale(1)'">KNOW MORE</a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                <div class="row align-items-center">
-                        <div class="col-md-4">
-                            <img src="images/Carousal-Images/carousal3-3.jpg" class="img-fluid" style="border-radius: 15px;" alt="Students">
-                        </div>
-                        <div class="col-md-8">
-                            <h2 style="color: #1a365d; font-size: 24px; margin-bottom: 20px;">Global Future-ready Merit Scholarship At GIIS Bangalore</h2>
-                            <p style="color: #4a5568; margin-bottom: 30px;">Global Indian International School offers the Global​ FUTURE-READY Merit (GFRM) Scholarship to deserving and distinguished students to study at one of their choice campuses within their own countries of residence. The prominent GFRM scholarship offers an impressive opportunity for an important learning experience that will prepare the student to become a global citizen</p>
-                            
-                            <div class="row mb-4">
-                                <div class="col-md-4">
-                                    <p style="color: #718096; margin-bottom: 5px;">Scholarship Tenure:</p>
-                                    <p style="color: #2d3748; font-weight: 500;">1 Year</p>
-                                </div>
-                                <div class="col-md-4">
-                                    <p style="color: #718096; margin-bottom: 5px;">Scholarship Value:</p>
-                                    <p style="color: #2d3748; font-weight: 500;">90% & Above</p>
-                                </div>
-                                <div class="col-md-4">
-                                    <p style="color: #718096; margin-bottom: 5px;">Applicable Grades:</p>
-                                    <p style="color: #2d3748; font-weight: 500;">Grade Whitefield Campus - Grade 6 - 12<br>Bannerghatta Campus - Grade 6 - 9</p>
-                                </div>
-                            </div>
-
-                            <a href="#" class="d-block mt-4 mb-4 fw-bold" style="color: #0099ff; text-decoration: none;">
-                                <small>REQUEST FOR SCHOLARSHIP BROCHURE</small>
-                                <span style="margin-left: 5px;">→</span>
-                            </a>
-                            
-                            <div class="d-flex gap-3">
-                                <a href="#" class="btn px-4 py-2" style="background-color: #00A3FF; color: white; border-radius: 25px; box-shadow: 0 4px 15px rgba(0, 163, 255, 0.3); font-weight: 500; border: none; text-transform: uppercase; font-size: 14px; transition: transform 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'">APPLY NOW</a>
-                                <a href="#" class="btn px-4 py-2" style="color: #00A3FF; border: 2px solid #00A3FF; background-color: transparent; border-radius: 25px; box-shadow: 0 4px 15px rgba(0, 163, 255, 0.3); font-weight: 500; text-transform: uppercase; font-size: 14px; transition: transform 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'">KNOW MORE</a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
 
 
@@ -1120,6 +1002,7 @@
         </div>
     </div>
 
+    <!-- FAQ's Section -->
     <div class="container mt-4 mb-4 py-5">
         <div class="row">
             <div class="col-md-8">
@@ -1195,6 +1078,7 @@
                 </div>
             </div>
             <div class="col-md-4">
+
                 <img src="images/faq-img.webp" class="d-block w-100 img-fluid" alt="">
             </div>
         </div>
@@ -1202,209 +1086,9 @@
 
 
 
-    <div style="background-color: #004B93; padding: 60px 0;">
-        <div class="container">
-            <div class="row g-4">
-                <!-- Whitefield Campus -->
-                <div class="col-lg-4">
-                    <h5 class="text-white mb-4">GIIS Whitefield Campus</h5>
-                    <div class="card bg-transparent border-0">
-                        <img src="images/whitefield-thumbnail.jpg" class="card-img" alt="Whitefield Campus" style="height: 200px; object-fit: cover; border-radius: 15px;">
-                        <div class="card-img-overlay d-flex flex-column justify-content-end" style="background: linear-gradient(transparent, rgba(0,0,0,0.7));">
-                            <p class="text-white mb-2 small">
-                                <i class="bi bi-geo-alt-fill"></i>
-                                No-5,6,8 Heggondahalli Village, Whitefield Sarjapur Main Road, Gunjur Post, Bengaluru, Karnataka 560087, India
-                            </p>
-                            <p class="text-white mb-0">
-                                <i class="bi bi-telephone-fill"></i>
-                                1800 5722 810
-                            </p>
-                        </div>
-                    </div>
-                    <div class="mt-3">
-                        <a href="#" class="rounded-circle me-2" style="width: 40px; height: 40px; padding: 8px;">
-                             <img src="images/yt.webp" alt="">
-                        </a>
-                        <a href="#" class="rounded-circle me-2" style="width: 40px; height: 40px; padding: 8px;">
-                             <img src="images/fb.webp" alt="">
-                        </a>
-                        <a href="#" class="rounded-circle me-2" style="width: 40px; height: 40px; padding: 8px;">
-                             <img src="images/twitter.webp" alt="">
-                        </a>
-                        <a href="#" class="rounded-circle me-2" style="width: 40px; height: 40px; padding: 8px;">
-                             <img src="images/linkedIn.webp" alt="">
-                        </a>
-                        <a href="#" class="rounded-circle me-2" style="width: 40px; height: 40px; padding: 8px;">
-                             <img src="images/insta.webp" alt="">
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Bannerghatta Campus -->
-                <div class="col-lg-4">
-                    <h5 class="text-white mb-4">GIIS Bannerghatta Campus</h5>
-                    <div class="card bg-transparent border-0">
-                        <img src="images/bgt-thumbnail.jpg" class="card-img" alt="Bannerghatta Campus" style="height: 200px; object-fit: cover; border-radius: 15px;">
-                        <div class="card-img-overlay d-flex flex-column justify-content-end" style="background: linear-gradient(transparent, rgba(0,0,0,0.7));">
-                            <p class="text-white mb-2 small">
-                                <i class="bi bi-geo-alt-fill"></i>
-                                Bannerghatta Main Rd, Gottigere, Bannerghatta, Bengaluru, Karnataka 560083, India
-                            </p>
-                            <p class="text-white mb-0">
-                                <i class="bi bi-telephone-fill"></i>
-                                1800 5722 810
-                            </p>
-                        </div>
-                    </div>
-                    <div class="mt-3">
-                        <a href="#" class="rounded-circle me-2" style="width: 40px; height: 40px; padding: 8px;">
-                             <img src="images/yt.webp" alt="">
-                        </a>
-                        <a href="#" class="rounded-circle me-2" style="width: 40px; height: 40px; padding: 8px;">
-                             <img src="images/fb.webp" alt="">
-                        </a>
-                        <a href="#" class="rounded-circle me-2" style="width: 40px; height: 40px; padding: 8px;">
-                             <img src="images/twitter.webp" alt="">
-                        </a>
-                        <a href="#" class="rounded-circle me-2" style="width: 40px; height: 40px; padding: 8px;">
-                             <img src="images/linkedIn.webp" alt="">
-                        </a>
-                        <a href="#" class="rounded-circle me-2" style="width: 40px; height: 40px; padding: 8px;">
-                             <img src="images/insta.webp" alt="">
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Certifications -->
-                <div class="col-lg-4">
-                    <div class="d-flex flex-column align-items-center gap-3">
-                        <img src="images/EFQM.webp" class="rounded-3" alt="EFQM Member" style="width: 100px;">
-                        <div class="d-flex gap-3">
-                            <div class="text-center">
-                                <img src="images/1so9001.webp" alt="ISO 9001:2015" style="width: 100px;">
-                                <p class="text-white fw-bold mt-3 mb-0">ISO 45001: 2018</p>
-                                <p class="text-white small mb-0">Certificate Number:<br>17526-QIS-001</p>
-                            </div>
-                            <div class="text-center">
-                                <img src="images/1so9001.webp" alt="ISO 45001:2018" style="width: 100px;">
-                                <p class="text-white fw-bold mt-3 mb-0">ISO 9001: 2015</p>
-                                <p class="text-white small mb-0">Certificate Number:<br>17526-OHS-001</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-    <footer class="bg-dark text-white py-4" style="background-color: #07294d !important;">
-        <div class="container-fluid">
-            <div class="row">
-                <!-- Logo and School Info Section -->
-                <div class="col-md-4 mb-4 px-5">
-                    <img src="images/gsg-logo-white.webp" class="" alt="Global Schools Group" style="width: 180px; margin-bottom: 20px;">
-                    <p class="small mb-2">Member of Global Schools Group</p>
-                    <div class="small">
-                        <p class="mb-1">CBSE Affiliation #</p>
-                        <p class="mb-1">Whitefield Campus : 830763</p>
-                        <p class="mb-3">Bannerghatta Campus : 831255</p>
-                    </div>
-                    <div class="newsletter">
-                        <h6 class="mb-3 px-4 px-md-4">Subscribe to our Newsletter</h6>
-                        <div class="input-group">
-                            <input type="email" class="form-control" placeholder="Your Email" style="height: 40px;">
-                            <button class="btn px-4 px-md-1" style="background-color: #8DC63F; color: white;">Subscribe Now</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- About Section -->
-                <div class="col-md-2 mb-4">
-                    <h6 class="text-uppercase mb-2" style="color: #8DC63F;">About</h6>
-                    <ul class="list-unstyled">
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>Vision Mission & Core Values</small></a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>History & Milestones</small></a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>GSG Management</small></a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>GSG Board of Advisors</small></a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>Global Schools Group</small></a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>Careers</small></a></li>
-                    </ul>
-                    
-                    <h6 class="text-uppercase mb-2 mt-4" style="color: #8DC63F;">School Level</h6>
-                    <ul class="list-unstyled">
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>Pre Primary</small></a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>Primary School</small></a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>Secondary School</small></a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>High School</small></a></li>
-                    </ul>
-                </div>
-
-                <!-- Curricula & Admissions Section -->
-                <div class="col-md-2 mb-4">
-                    <h6 class="text-uppercase mb-2" style="color: #8DC63F;">Curricula</h6>
-                    <ul class="list-unstyled">
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>Global Montessori (GMP)</small></a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>CBSE</small></a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>IGCSE</small></a></li>
-                    </ul>
-
-                    <h6 class="text-uppercase mb-2 mt-4" style="color: #8DC63F;">Admissions</h6>
-                    <ul class="list-unstyled">
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>Admission Process</small></a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>Fees</small></a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>Admission Form</small></a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>Scholarships</small></a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>Book a Meeting</small></a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>Enquiry Form</small></a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>Upcoming Events</small></a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>Transfer Certificate</small></a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>Public vs. Private</small></a></li>
-                    </ul>
-                </div>
-
-                <!-- Student Life & Resources Section -->
-                <div class="col-md-2 mb-4">
-                    <h6 class="text-uppercase mb-2" style="color: #8DC63F;">Student Life</h6>
-                    <ul class="list-unstyled">
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>Holistic Education Framework</small></a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>Facilities</small></a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>Extra Curricular Activities</small></a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>Co Curricular Activities</small></a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>Events & Activities</small></a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>Parent Engagement</small></a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>Safety & Security</small></a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>Happiness Index</small></a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>University Placements</small></a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>Faculty</small></a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>Value Added Programmes</small></a></li>
-                    </ul>
-                </div>
-                <div class="col-md-2 mb-4">
-                    <h6 class="text-uppercase mb-2" style="color: #8DC63F;">Resources</h6>
-                    <ul class="list-unstyled">
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>Resources</small></a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>Blog</small></a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>Podcast</small></a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>MyGIIS</small></a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>Campus News</small></a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>Publications</small></a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>Photo Gallery</small></a></li>
-                        <li class="mb-2"><a href="#" class="text-white text-decoration-none"><small>Videos</small></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-    
-
-    <div class="d-flex flex-column flex-md-row justify-content-center gap-4 py-3 text-center" style="background-color: #004B93;">
-        <a href="#" class="link-offset-2 link-underline link-underline-opacity-0 text-white"><span>Privacy Policy</span></a>
-        <a href="#" class="link-offset-2 link-underline link-underline-opacity-0 text-white"><span>Copyright</span></a>
-        <a href="#" class="link-offset-2 link-underline link-underline-opacity-0 text-white"><span>Cookie Policy</span></a>
-        <a href="#" class="link-offset-2 link-underline link-underline-opacity-0 text-white"><span>Terms of Service</span></a>
-    </div>
+    <x-footer>
+        
+    </x-footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

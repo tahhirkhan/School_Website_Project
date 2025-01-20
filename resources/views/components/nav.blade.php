@@ -34,7 +34,7 @@
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0 order-lg-1">
                             <!-- About Menu Item -->
                             <li class="nav-item h6 position-static">
-                                <a href="#" class="nav-link text-secondary" aria-current="page" 
+                                <a href="" class="nav-link text-secondary" aria-current="page" 
                                 style="transition: color 0.3s;" 
                                 onmouseover="this.style.color='#07294d';" 
                                 onmouseout="this.style.color='#666';">About</a>
@@ -52,7 +52,7 @@
                                                     </div>
                                                     <div>
                                                         <h6 class="mb-2" style="color: #1a365d; font-weight: 600;">
-                                                            <a class="text-dark link-underline link-underline-opacity-0 link-opacity-50-hover" href="">
+                                                            <a class="text-dark link-underline link-underline-opacity-0 link-opacity-50-hover" href="/school-vision">
                                                                 Vision, Mission & Core Values
                                                             </a>
                                                         </h6>
@@ -71,7 +71,7 @@
                                                     </div>
                                                     <div>
                                                         <h6 class="mb-2" style="color: #1a365d; font-weight: 600;">
-                                                            <a class="text-dark link-underline link-underline-opacity-0 link-opacity-50-hover" href="">
+                                                            <a class="text-dark link-underline link-underline-opacity-0 link-opacity-50-hover" href="/school-history">
                                                                 History & Milestones
                                                             </a>
                                                         </h6>
@@ -215,7 +215,7 @@
                                     <div class="container py-5">
                                         <div class="row">
                                             <div class="col-12 col-md-3">
-                                                <a class="text-dark link-underline link-underline-opacity-0 link-opacity-50-hover" href="">
+                                                <a class="text-dark link-underline link-underline-opacity-0 link-opacity-50-hover" href="/pre-primary">
                                                     <div class="card border border-0" style="transition: transform 0.3s ease; cursor: pointer;" onmouseover="this.style.transform='scale(1.06)'" onmouseout="this.style.transform='scale(1)'">
                                                         <img src="images/Carousal-Images/card-img1.jpg" class="card-img-top" alt="...">
                                                         <div class="card-body">
