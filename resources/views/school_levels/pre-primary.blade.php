@@ -218,6 +218,10 @@
             background-image: url("images/Carousal-Images/image-utube.jpg");
         } */
 
+        .featured-blogs {
+            background-image: url("images/Carousal-Images/bangalore-campus-bg-img.jpg");
+        }
+
     </style>
 </head>
 <body>
@@ -388,7 +392,7 @@
 
         <div class="container py-5">
             <div class="row">
-                <div class="col-md-10">
+                <div class="col-md-9 mb-5">
                     
                     <h2 class="fw-bold mb-3 text-center" style="color: #0f4476">
                         Subjects Offered - International Pre-primary School in Bangalore
@@ -1006,35 +1010,116 @@
 
 
                 
-                <div class="col-md-2">
+                <!-- <div class="col-md-3">
                     <div class="d-flex gap-3">
                         <img src="images/Carousal-Images/fee-related.png" alt="">
                         <h5>Fees Related</h5>
                     </div>
 
                     <div class="d-flex gap-3">
-                        <img src="images/Carousal-Images/fee-related.png" alt="">
+                        <img src="images/Carousal-Images/admission-related.png" alt="">
                         <h5>Admission Related</h5>
                     </div>
 
                     <div class="d-flex gap-3">
-                        <img src="images/Carousal-Images/fee-related.png" alt="">
-                        <h5>Fees Related</h5>
-                    </div>
-
-                    <div class="d-flex gap-3">
-                        <img src="images/Carousal-Images/fee-related.png" alt="">
+                        <img src="images/Carousal-Images/available-campuses.png" alt="">
                         <h5>Available Campuses</h5>
                     </div>
 
                     <div class="d-flex gap-3">
-                        <img src="images/Carousal-Images/fee-related.png" alt="">
+                        <img src="images/Carousal-Images/interact-with-us.png" alt="">
+                        <h5>Interact with us</h5>
+                    </div>
+
+                    <div class="d-flex gap-3">
+                        <img src="images/Carousal-Images/chat-with-customer.svg" alt="">
                         <h5>Chat with counsellor</h5>
+                    </div>
+                </div> -->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-3">
+                    <div class="d-flex align-items-center gap-3 mb-3">
+                        <h5 class="mb-0"><i class="bi bi-cash-coin"></i></h5>
+                        <h5 class="mb-0"> Fees Related</h5>
+                    </div>
+
+                    <div class="d-flex align-items-center gap-3 mb-3">
+                        <h5 class="mb-0"><i class="bi bi-mortarboard-fill"></i></h5>
+                        <h5 class="mb-0"> Admission Related</h5>
+                    </div>
+
+                    <div class="d-flex align-items-center gap-3 mb-3">
+                        <h5 class="mb-0"><i class="bi bi-buildings"></i></h5>
+                        <h5 class="mb-0"> Available Campuses</h5>
+                    </div>
+
+                    <div class="d-flex align-items-center gap-3 mb-3">
+                        <h5 class="mb-0"><i class="bi bi-people-fill"></i></h5>
+                        <h5 class="mb-0"> Interact with us</h5>
+                    </div>
+
+                    <div class="d-flex align-items-center gap-3 mb-3">
+                        <h5 class="mb-0"><i class="bi bi-chat-right-dots"></i></h5>
+                        <h5 class="mb-0"> Chat with counsellor</h5>
                     </div>
                 </div>
             </div>
         </div>
    
+    </div>
+
+    <div class="container-fluid featured-blogs">
+        <div class="container py-5">
+            <!-- <h2 class="mb-4 mt-4 fw-bold text-white" style="color: #0f4476">Featured Blogs</h2> -->
+            <div class="d-flex flex-column flex-md-row justify-content-between align-items-center mb-5 mt-4 text-center text-md-start">
+                <h2 class="mb-4 mt-4 fw-bold text-white" style="color: #0f4476">Featured Blogs</h2>
+                <a href="#" class="btn btn-outline-warning px-4 rounded-pill"><strong>View All</strong></a>
+            </div>
+            
+            <div class="row g-4">
+                <!-- First News Item -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow border border-0">
+                        <img src="images/Carousal-Images/blog-1.jpg" class="card-img-top" alt="Women's Day Celebration" style="height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #0f4476">Explore GIIS Whitefield Scholarship Program</h5>
+                            <p class="card-text">Every child is unique and has hidden talents that when encouraged, come to the fore. At GIIS, w...</p>
+                            <div class="d-flex align-items-center text-muted">
+                                <small><i class="bi bi-clock me-2"></i>10 Mar 2021</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Second News Item -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow border border-0">
+                        <img src="images/Carousal-Images/blog2.jpg" class="card-img-top" alt="Earth Day Celebration" style="height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #0f4476">GIIS India GSE - Ethical dilemmas of COVID-19 and present real-time solutions</h5>
+                            <p class="card-text">Who knew that this global pandemic would entirely redefine the meaning of ethics? Aren't we liv...</p>
+                            <div class="d-flex align-items-center text-muted">
+                                <small><i class="bi bi-clock me-2"></i>Who knew that this global pandemic would entirely redefine the meaning of ethics? Aren't we liv...</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Third News Item -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow border border-0">
+                        <img src="images/Carousal-Images/blog3.jpg" class="card-img-top" alt="GIIS Graduates" style="height: 200px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: #0f4476">GIIS India GSE - Global Impact of COVID-19</h5>
+                            <p class="card-text">We are extremely elated to share that even amid such critical times, GIIS held a Global Student...</p>
+                            <div class="d-flex align-items-center text-muted">
+                                <small><i class="bi bi-clock me-2"></i>
+                                Jun 4, 2020</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 
